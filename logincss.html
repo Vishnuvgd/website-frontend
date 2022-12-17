@@ -1,89 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="https://kit.fontawesome.com/2e2ee03397.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
-        body{
-            
+        body {
+
+            background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
         }
-        #a{
-            background: linear-gradient(90deg, #fc76e1 0%, #fffefd 100%);
-            height: 500px;
-            width: 400px;
-            float: left;
-            margin-top: 5%;
-            margin-left: 400px;
+
+        #a {
+            height:400px;
+            width:360px;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            margin-left: 500px;
+            padding-right:4% ;
+            background-color: white;
+            border-radius: 50px;
         }
-        #b{ 
-            background: linear-gradient(90deg, #fdf900 0%, #fd8802 100%);
-            height: 500px;
-            width: 400px;
-            float: left;
-            margin-top: 5%;
-        }
-        h1{
-            color: rgb(252, 94, 2);
+
+        h3 {
+            color: rgb(93, 48, 253);
             text-align: center;
             padding-top: 10%;
+            padding-right: 1%;
         }
-        #i{
-            color: rgb(218, 9, 9);
-            padding-left:45%;
+
+        #i {
+            padding-left: 45%;
         }
-        #t{
+
+        #t {
             margin-left: 32%;
         }
-        b{
-            color: rgb(3, 102, 251);
-            padding-left: 36%;
+
+        .z {
+            color: rgb(93, 48, 253);
+            padding-left: 37%;
+            text-decoration: none;
         }
-        #bb{
-            color:white;
-            background-color: rgb(218, 9, 9);
-            width: 70px;
-            border-radius:20px;
-            padding: 5px 5px 5px 5px;
+
+        #bb {
+            color: white;
+            background-color: rgb(93, 48, 253);
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
             border-color: white;
         }
-        .c1{
-            color:white;
-            padding-top:150px;
+
+        .bu {
+            padding-left: 40%;
         }
-        p{
+
+        .c1 {
+            color: white;
+            padding-top: 150px;
+        }
+
+        p {
             color: white;
             font-size: small;
+            text-align: center;
+        }
+
+        #fl,
+        .navbar {
+            background-color: black;
+        }
+        #fl{
+            padding-top: 1%;
+        }
+
+        a {
+            padding-left: 0%;
+        }
+
+        .nav-link {
+            color: white;
+        }
+        #ld{
+            color: black;
+        }
+        .col-3{
             text-align: center;
         }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login</title>
 </head>
-<body>
 
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <!-- toggler : screen view in diiferent screen -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+                <!-- toggle icon -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Work.html"><b>SAMSUNG</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.samsung.com/global/galaxy/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="lo" href="logincss.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://www.samsung.com/in/about-us/company-info/?cid=in_paid_ppc_google_allproducts_none_allproducts-eshop-bau-dsa_text_20200105_17924215676-140077037736---614139100219-dsa-546668199249-1ur-501336l-2022">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://support.google.com/contacts/answer/30970?hl=en&co=GENIE.Platform%3DAndroid">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass fa-1x text-white pt-2"></i>
+                </form>
+            </div>
+        </div>
+    </nav>
     <div id="a">
-        <h1>Login</h1><br>
+        <h3>LOGIN</h3>
         <div id="i">
-            <i class="fa-brands fa-facebook "></i>
-            <i class="fa-solid fa-envelope "></i><br><br><br>
+            <i class="fa-brands fa-facebook text-primary"></i>
+            <i class="fa-solid fa-envelope text-danger"></i><br><br>
         </div>
         <table>
-            <b>or use your account</b><br><br>
+            <a class="z">or use your account</a><br><br>
             <div id="t">
-            <input type="email" placeholder="Email"><br><br>
-            <input type="password" placeholder="Password"><br><br>
+                <input type="text" placeholder="user name"><br><br>
+                <input type="password" placeholder="password"><br><br>
             </div>
-            <b>Forgot password?</b><br><br>
-            <center>
-            <a href="google.com"><input type="button" name="button" value="LOG IN" id="bb"></a>
-            </center>
+            <a class="z">Forgot password?</a><br><br>
+            <div class="bu">
+                <a href="google.com"><input type="button" id="bb" name="button" value="login"></a>
+            </div>
         </table>
-        
     </div>
-    <div id="b">
-        <h1 class="c1">SAMSUNG</h1>
-        <p>To keep connected with us please login with your personal info</p>
+
+    <div class="container-fluid" id="fl">
+        <div class="row">
+            <div class="col-12" id="get">
+                <p>Get connected with us!</p>
+            </div>
+            <div class="d-flex me-auto" id="i">
+                <div class="row">
+                    <div class="col-3"><i class="fa-brands fa-facebook text-primary pt-2 pb-3"></i></div>
+                    <div class="col-3"> <i class="fa-brands fa-linkedin pt-2  pb-3"
+                            style="color: rgb(53, 53, 246);"></i></div>
+                    <div class="col-3"><i class="fa-brands fa-twitter text-info pt-2  pb-3"></i></div>
+                    <div class="col-3"> <i class="fa-brands fa-instagram text-danger pt-2  pb-3"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="ld">
+        <div class="row d-flex" style="padding-top:20px;">
+            <div class="col-3"><b><u>SAMSUNG</u></b>
+                <p style="padding-top:10%;">Samsung is a major manufacturer of Electronic Components such as lithium-ion
+                    batteries, semiconductors, image sensors, camera modules, and displays for clients such as Apple,
+                    Sony, HTC,
+                    and Nokia.</p>
+            </div>
+            <div class="col-3"><b><u>PRODUCT</u></b>
+                <p style="padding-top:10%;">Mobile</p>
+                <p>Tv</p>
+            </div>
+            <div class="col-3"><b><u>USEFUL LINK</u></b>
+                <p style="padding-top:10%;">Home</p>
+                <p>Login</p>
+                <p>Registration</p>
+                <p>About</p>
+            </div>
+            <div class="col-3"><b><u>CONTACT</u></b>
+                <p style="padding-top:10%;">
+                    1800-5-7267864
+                    Consumers can send a simple message on Samsung's WhatsApp support number 1800-5-SAMSUNG
+                    (1800-5-7267864) to
+                    register for the service</p>
+            </div>
+            <center>
+                <p style="padding-top:3%;"><i class="fa-regular fa-copyright"></i>&nbsp; 2022 copyright.All copyright
+                    are
+                    recived</p>
+            </center>
+        </div>
     </div>
 </body>
+
 </html>
